@@ -21,7 +21,7 @@ hs_err_pid*
 
 # Ignore folder named 'allure-results'
 allure-results/
-allure
+.allure
 
 # Ignore folder named 'build'
 build/
