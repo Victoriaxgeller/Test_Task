@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test cases" parallel="tests" thread-count="2">
+    <test name="Logout test with UI">
+        <classes>
+            <class name="ui.LogoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Logout test by direct URL">
+        <classes>
+            <class name="ui.LogoutTestByUrl"/>
+        </classes>
+    </test>
+</suite>
