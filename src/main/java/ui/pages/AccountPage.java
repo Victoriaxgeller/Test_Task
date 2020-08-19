@@ -25,6 +25,7 @@ public class AccountPage {
 
     @Step("Check user is logged in")
     public boolean userIsLoggedIn() {
+        browser.waitUntilVisible(accountHeading);
         return accountHeading.getText().equals(PAGE_TITLE);
     }
 }
