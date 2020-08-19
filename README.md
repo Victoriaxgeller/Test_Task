@@ -1,8 +1,9 @@
 There are 2 projects in one repository:
 
-**1. Api User tests on https://reqres.in/** 
-
 Parallel launch implemented with the help of TestNG
+
+
+**1. Api User tests on https://reqres.in/** 
 
 
 **Command for tests launching:**
@@ -11,7 +12,6 @@ mvn -B -f ./pom.xml clean test -DbuildDirectory=./target -Dsuite=xmls/ApiUserTes
 
 
 **Command for allure-report generating:**
-
 mvn io.qameta.allure:allure-maven:serve
 
 
@@ -34,7 +34,6 @@ mvn -B -f ./pom.xml clean test -DbuildDirectory=./target -Dsuite=xmls/UiLogoutTe
 
 
 **Command for allure-report generating:**
-
 mvn io.qameta.allure:allure-maven:serve
 
 
