@@ -1,6 +1,5 @@
 package api;
 
-import ui.core.AllureAttachments;
 import okhttp3.*;
 import okio.Buffer;
 import okio.BufferedSource;
@@ -266,7 +265,7 @@ public class HTTPLogInterceptor implements Interceptor {
     public void writeLog() {
         String data = logger.getData();
         System.out.println(data);
-        AllureAttachments.txtAttachment(data, "Query");
+        AllureAttachments.txtAttachment(data, "QUERY");
     }
 
     public void writeLog(Exception e) {

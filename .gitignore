@@ -41,3 +41,5 @@ target/maven-status
 *.iml
 
 .DS_Store
+
+.package-lock.json

@@ -1,8 +1,5 @@
 package ui;
 
-import ui.core.Browser;
-import ui.core.Driver;
-import ui.core.PageFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 

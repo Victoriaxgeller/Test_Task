@@ -4,13 +4,11 @@ import io.qameta.allure.Step;
 import ui.pages.AccountPage;
 import ui.pages.LoginPage;
 import org.testng.annotations.*;
-import ui.core.TestListener;
 import ui.data.TestData;
 
 import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.fail;
 
-@Listeners(TestListener.class)
 public class LogoutTest extends TestBase {
 
     private LoginPage loginPage;
@@ -26,6 +24,7 @@ public class LogoutTest extends TestBase {
         }
     }
 
+    @BeforeClass
     @Step("Actions performed before tests")
     private void beforeTests() {
         loginPage = pageFactory.getLoginPage();

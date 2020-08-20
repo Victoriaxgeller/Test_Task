@@ -1,4 +1,4 @@
-package ui.core;
+package ui;
 
 import ui.pages.AccountPage;
 import ui.pages.LoginPage;
@@ -20,5 +20,4 @@ public class PageFactory {
     public LoginPage getLoginPage() {
         return new LoginPage(driver, browser);
     }
-
 }

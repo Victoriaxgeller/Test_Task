@@ -1,4 +1,4 @@
-package ui.core;
+package ui;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +28,7 @@ public class Browser {
     }
 
     public void waitUntilVisible(WebElement element) {
-        WebDriverWait wait = new WebDriverWait(driver, 10, 2);
+        WebDriverWait wait = new WebDriverWait(driver, 15, 2);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 }

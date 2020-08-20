@@ -1,7 +1,6 @@
 package ui;
 
 import io.qameta.allure.Step;
-import ui.core.TestListener;
 import ui.pages.AccountPage;
 import ui.pages.LoginPage;
 import org.testng.annotations.BeforeClass;
@@ -12,7 +11,6 @@ import ui.data.TestData;
 import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.fail;
 
-@Listeners(TestListener.class)
 public class LogoutTestByUrl extends TestBase {
 
     private LoginPage loginPage;

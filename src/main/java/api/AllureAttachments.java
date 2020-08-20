@@ -1,4 +1,4 @@
-package ui.core;
+package api;
 
 import io.qameta.allure.Attachment;
 

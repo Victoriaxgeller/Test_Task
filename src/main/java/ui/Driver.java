@@ -1,4 +1,4 @@
-package ui.core;
+package ui;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -33,12 +33,5 @@ public class Driver {
 
     public static WebDriver getDriver() {
         return getDriver(null);
-    }
-
-    public static void closeDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
-        }
     }
 }

@@ -1,6 +1,6 @@
 package ui.pages;
 
-import ui.core.Browser;
+import ui.Browser;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
